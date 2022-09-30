@@ -18,15 +18,20 @@ int B = int.Parse(Console.ReadLine());
 if (A > B)
 {
     MAX = A;
+    Console.Write("MAX = ");
+    Console.WriteLine(A);
+
+    MIN = B;
+    Console.Write("MIN = ");
+    Console.WriteLine(B);
 }
 else
 {
-    MIN = B;
+    MAX = B;
+    Console.Write("MAX = ");
+    Console.WriteLine(B);
+
+    MIN = A;
+    Console.Write("MIN = ");
+    Console.WriteLine(A);
 }
-
-
-Console.Write("MAX = ");
-Console.WriteLine(A);
-
-Console.Write("MIN = ");
-Console.WriteLine(B);
